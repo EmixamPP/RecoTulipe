@@ -1,0 +1,23 @@
+@media (min-width:992px) {
+  .main-align {
+    width: 70%;
+  }
+}
+
+a {
+  color: #3ed09b;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #3ed09b;
+  text-decoration: none;
+}
+
+.input-view {
+  max-width: 60%;
+}
+
+.select_img {
+}
+

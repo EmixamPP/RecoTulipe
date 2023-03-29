@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html style="width: 100;margin: 0px;">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>tulipe</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Muli">
+    <link rel="stylesheet" href="assets/css/Highlight-Clean.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-light navbar-expand-md" style="width: 470px;">
+        <div class="container-fluid"><a class="navbar-brand" href="#">Tulipe</a></div>
+    </nav>
+    <div class="highlight-clean" style="background: url('assets/img/bg-pattern.png'), linear-gradient(to left, #00431f, #20c997);height: 100%;width: 101%;text-align: center;padding: 49px;">
+        <div class="container">
+            <div class="intro"></div>
+            <div class="buttons"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <h2 class="text-center" style="color: rgb(0,0,0);">Reconnaissez vos plantes</h2><button class="btn btn-primary" type="button" style="color: rgb(0,0,0);background: rgb(255,255,255);border-radius: 8px;" onclick="document.getElementById(&#39;mypic&#39;).click();">PRENDRE UNE PHOTO</button>
+                <div class="row">
+                    <div class="col">
+                        <div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col"><input type="file" id="mypic" accept="image/*" onchange="upload()" style="display:none;"></div>
+        </div>
+        <main></main>
+        <div class="row">
+            <div class="col">
+                <p id="res" style="color: rgb(0,0,0);font-size: 29px;"></p>
+            </div>
+        </div><canvas id="canvas" height=300 width=300></canvas>
+        <div class="row">
+            <div class="col">
+                <div></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div></div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="assets/js/upload.js"></script>
+</body>
+
+</html>
